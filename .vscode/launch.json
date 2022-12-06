@@ -1,0 +1,29 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Node.js - Debug Current File",
+            "type": "node",
+            "request": "launch",
+            "program": "${file}"
+        },
+        {
+            "name": "ts-node",
+            "type": "node",
+            "request": "launch",
+            "args": [
+                "--nolazy", "-r", "ts-node/register/transpile-only",
+                "${relativeFile}"
+            ],
+            "runtimeArgs": [
+                "-r",
+                "ts-node/register"
+            ],
+            "cwd": "${workspaceRoot}",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
