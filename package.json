@@ -8,11 +8,18 @@
   },
   "author": "iapyang",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "@babel/core": "7.19.1",
+    "@fui/eslint-plugin": "1.1.0",
+    "@types/glob": "8.0.0",
     "@types/image-size": "0.8.0",
     "@types/node": "18.11.10",
+    "@typescript-eslint/eslint-plugin": "4.23.0",
+    "@typescript-eslint/parser": "4.23.0",
     "axios": "1.2.0",
+    "eslint": "7.0.0",
     "exceljs": "4.3.0",
+    "glob": "8.0.3",
     "image-size": "1.0.2",
     "ts-node": "10.9.1",
     "typescript": "4.2.4"
